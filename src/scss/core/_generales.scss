@@ -1,0 +1,29 @@
+@use '../core/variables' as vars;
+
+html {
+    font-family: vars.$font-family;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: vars.$color-tertiary;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: vars.$color-tertiary;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: semi-bold;
+    color: vars.$color-tertiary;
+}
+
+p {
+    font-size: 16px;
+    font-weight: regular;
+    color: vars.$color-tertiary;
+}

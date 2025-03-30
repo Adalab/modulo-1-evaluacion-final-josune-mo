@@ -1,45 +1,64 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
 .main__section-1 {
-    background-color: vars.$color-primary;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 20px;
-    justify-items: center;
-    text-align: center;
-    padding: 30px;
-    gap: 75px;
+  background-color: vars.$color-primary;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 1rem;
+  justify-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 3rem;
 }
 
 .main__section-2 {
-    background-color: vars.$color-secondary;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
+  background-color: vars.$color-secondary;
+  padding: 3rem;
 }
 
 .main__article-2 h3 {
-    color: vars.$color-quinary;
+  color: vars.$color-quinary;
 }
 
 .main__article-2 p {
-    color: vars.$color-quinary;
+  color: vars.$color-quinary;
+}
+
+.main__article-link {
+  color: vars.$color-quinary;
+}
+
+.main__article-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
 }
 
 .main__section-3 {
-    background-color: vars.$color-primary;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 40px;
-    padding-top: 30px;
+  background-color: vars.$color-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 4rem;
+}
+
+.main__button-1 {
+  background-color: vars.$color-tertiary;
+  color: vars.$color-primary;
+  font-family: vars.$font-family;
+  border: none;
+  box-shadow: none;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
 }
 
 .main__image {
-    width: 100%;
+  width: 100%;
+  display: block;
 }

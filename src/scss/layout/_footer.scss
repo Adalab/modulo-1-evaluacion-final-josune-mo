@@ -1,9 +1,44 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
 .footer {
-
+  background-color: vars.$color-tertiary;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
-.footer__redes-sociales {
-    width: 30px;
+.footer__section-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer p {
+  color: vars.$color-quaternary;
+}
+
+.footer a {
+  color: vars.$color-quaternary;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.footer__list-links {
+  list-style: none;
+}
+
+.footer__section-2 {
+  display: flex;
+  flex-direction: row;
+  padding-right: 2.5rem;
+  gap: 1rem;
+}
+
+.footer__section-3 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 13rem;
 }

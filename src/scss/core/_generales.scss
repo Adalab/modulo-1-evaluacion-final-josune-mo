@@ -27,3 +27,18 @@ p {
     font-weight: regular;
     color: vars.$color-tertiary;
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 18px;
+    }
+}

@@ -33,6 +33,7 @@
 
 .header__button-1:hover {
   background-color: vars.$color-quaternary;
+  color: vars.$color-tertiary;
 }
 
 .header__section-1 {
@@ -66,6 +67,7 @@
     align-items: flex-start;
     text-align: left;
     gap: 2rem;
+    padding: 6rem;
   }
 
 }

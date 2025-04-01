@@ -2,17 +2,21 @@
 
 .footer {
   background-color: vars.$color-tertiary;
-  padding: 2rem;
+  padding: 4rem;
+}
+
+.footer__section {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3rem;
 }
-.footer p {
+
+.footer__section p {
   color: vars.$color-quaternary;
 }
 
-.footer a {
+.footer__section a {
   color: vars.$color-quaternary;
   text-decoration: none;
   font-size: 0.7rem;
@@ -31,10 +35,35 @@
 }
 
 .footer__arrow {
-  display: flex;
-  flex-direction: column;
-  padding-left: 18rem;
+  position: relative;
+  left: 85%;
+  top: 1rem;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
+
+  .footer__section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .footer__arrow {
+    left: 100%;
+  }
+
+}
+
+@media all and (min-width: 1024px) {
+  .footer__section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+  }
+
+  .footer__arrow {
+    left: 100%;
+  }
 }
